@@ -3,46 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ПВЗ Гібрид</title>
+    <title>Рослини проти Зомбі</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Пункт видачі замовлень (ПВЗ) Гібрид</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">Про нас</a></li>
-                <li><a href="#search">Пошук ПВЗ</a></li>
-                <li><a href="#contact">Контакти</a></li>
-            </ul>
-        </nav>
+        <h1>Рослини проти Зомбі</h1>
+        <p>Захистіть свій сад від хвилі зомбі!</p>
     </header>
-
-    <section id="about">
-        <h2>Про нас</h2>
-        <p>Наші пункти видачі замовлень (ПВЗ) пропонують зручні варіанти отримання покупок. Ми маємо гнучкий підхід, щоб ви могли забирати замовлення в зручний час та місці.</p>
-    </section>
-
-    <section id="search">
-        <h2>Пошук найближчого ПВЗ</h2>
-        <form id="searchForm">
-            <label for="location">Введіть ваше місто:</label>
-            <input type="text" id="location" name="location" placeholder="Місто" required>
-            <button type="submit">Знайти</button>
-        </form>
-        <div id="result"></div>
-    </section>
-
-    <section id="contact">
-        <h2>Контакти</h2>
-        <p>Телефон: +38 (123) 456-78-90</p>
-        <p>Email: support@pvz-hybrid.com</p>
-    </section>
-
+    <main>
+        <div class="game-board">
+            <!-- Поле для рослин -->
+            <div class="plants-zone">
+                <div class="plant" id="plant-1">🌻</div>
+                <div class="plant" id="plant-2">🌱</div>
+            </div>
+            <!-- Поле для зомбі -->
+            <div class="zombies-zone">
+                <div class="zombie" id="zombie-1">🧟</div>
+                <div class="zombie" id="zombie-2">🧟‍♂️</div>
+            </div>
+        </div>
+        <button id="start-button">Розпочати гру</button>
+    </main>
     <footer>
-        <p>&copy; 2024 ПВЗ Гібрид. Всі права захищені.</p>
+        <p>Створено для навчання. Всі права захищені.</p>
     </footer>
-
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
