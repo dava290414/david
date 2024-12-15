@@ -1,1 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8e8;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #34a853;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.content {
+    margin: 20px;
+}
+h1, h2 {
+    color: #2d572c;
+}
+p {
+    line-height: 1.6;
+    color: #555;
+}
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.plants, .zombies {
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+}
+.plants {
+    background-color: #e8f5e9;
+}
+.zombies {
+    background-color: #fce4ec;
+}
 
