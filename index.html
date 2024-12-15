@@ -3,30 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Рослини проти Зомбі</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Рослини проти Зомбі Гібрид</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8e8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #34a853;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .content {
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #2d572c;
+        }
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+        img {
+            display: block;
+            margin: 10px auto;
+            max-width: 100%;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .plants, .zombies {
+            border: 2px solid #ccc;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .plants {
+            background-color: #e8f5e9;
+        }
+        .zombies {
+            background-color: #fce4ec;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Рослини проти Зомбі</h1>
-        <p>Захистіть свій сад від хвилі зомбі!</p>
+        <h1>Рослини проти Зомбі: Гібрид</h1>
+        <p>Епічна битва добра проти зла у вашому браузері!</p>
     </header>
-    <main>
-        <div class="game-container">
-            <div class="plants-zone">
-                <div class="plant" id="plant-1" data-damage="15">🌻</div>
-                <div class="plant" id="plant-2" data-damage="20">🌱</div>
-            </div>
-            <div class="zombies-zone">
-                <div class="zombie" id="zombie-1" data-health="50">🧟</div>
-                <div class="zombie" id="zombie-2" data-health="60">🧟‍♂️</div>
-            </div>
+
+    <div class="content">
+        <h2>Про Рослини</h2>
+        <div class="plants">
+            <p>Рослини — це ваші захисники. Вони мають унікальні здібності, що допомагають боротися із зомбі. Від класичного Соняшника до могутнього Кактуса.</p>
+            <img src="https://via.placeholder.com/400x200" alt="Рослини в дії">
         </div>
-        <button id="start-game">Розпочати гру</button>
-    </main>
-    <footer>
-        <p>Створено з любов'ю для навчання.</p>
-    </footer>
-    <script src="script.js"></script>
+
+        <h2>Про Зомбі</h2>
+        <div class="zombies">
+            <p>Зомбі — це невтомні вороги. Вони приходять у різних формах: звичайні, конуси на головах та навіть танцюристи диско.</p>
+            <img src="https://via.placeholder.com/400x200" alt="Зомбі атакують">
+        </div>
+
+        <h2>Чому грати?</h2>
+        <p>Ця гра поєднує в собі стратегію, гумор і незабутні персонажі. Змагайтеся зі злом, використовуючи свої навички та розум.</p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Рослини проти Зомбі Гібрид. Всі права захищені.</p>
+    </div>
 </body>
 </html>
