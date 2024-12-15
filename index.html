@@ -12,22 +12,20 @@
         <p>Захистіть свій сад від хвилі зомбі!</p>
     </header>
     <main>
-        <div class="game-board">
-            <!-- Поле для рослин -->
+        <div class="game-container">
             <div class="plants-zone">
-                <div class="plant" id="plant-1">🌻</div>
-                <div class="plant" id="plant-2">🌱</div>
+                <div class="plant" id="plant-1" data-damage="15">🌻</div>
+                <div class="plant" id="plant-2" data-damage="20">🌱</div>
             </div>
-            <!-- Поле для зомбі -->
             <div class="zombies-zone">
-                <div class="zombie" id="zombie-1">🧟</div>
-                <div class="zombie" id="zombie-2">🧟‍♂️</div>
+                <div class="zombie" id="zombie-1" data-health="50">🧟</div>
+                <div class="zombie" id="zombie-2" data-health="60">🧟‍♂️</div>
             </div>
         </div>
-        <button id="start-button">Розпочати гру</button>
+        <button id="start-game">Розпочати гру</button>
     </main>
     <footer>
-        <p>Створено для навчання. Всі права захищені.</p>
+        <p>Створено з любов'ю для навчання.</p>
     </footer>
     <script src="script.js"></script>
 </body>
