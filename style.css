@@ -1,87 +1,64 @@
-/* Основні стилі */
 body {
     font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #eef7d5;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #88c540;
     color: white;
-    padding: 15px;
-    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
-header h1 {
-    margin: 0;
+main {
+    padding: 10px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-section {
+.game-board {
+    display: flex;
+    justify-content: space-around;
     padding: 20px;
-    margin: 10px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f3f3f3;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
-section h2 {
-    color: #4CAF50;
+.plants-zone, .zombies-zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plant, .zombie {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
     padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #88c540;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #6e9f34;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-/* Стили для форми */
-input[type="text"] {
-    padding: 10px;
-    width: 200px;
-    margin-right: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-#result {
-    margin-top: 20px;
-    background-color: #e9f5e9;
-    padding: 10px;
-    border-radius: 5px;
-}
 
